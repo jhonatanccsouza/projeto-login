@@ -44,7 +44,7 @@
         padding: 8vh;
     }
     body{
-        height: 78vh;
+        height: 70vh;
         width: max-content;
 
     }
@@ -58,6 +58,7 @@
     }
     main{
         width: 255px;
+        
     }
 
     main > section#login > #form-login > div {
