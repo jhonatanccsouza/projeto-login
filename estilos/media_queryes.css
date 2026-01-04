@@ -40,6 +40,10 @@
 }
 
 @media only screen and (min-width: 600px) {
+    body{
+        height: 84vh;
+    }
+
     div#msg{
         margin: 16px;
     }
