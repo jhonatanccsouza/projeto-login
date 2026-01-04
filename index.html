@@ -1,22 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person">
+
+
+
 </head>
+
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+                <img src="imagens/prédio-landscape.jpg" alt="">
             </div>
             <div id="msg">
-                <p>Olá seja bem-vindo(a) novamente. Faça o login para configurar o seu ambiente</p>
-                <form action="login.php" method="post"></form>
+                <p id="p1"><strong>Olá</strong> <br> Seja bem-vindo(a) novamente!</p>
+                <p id="p2">Faça login para configurar o seu ambiente.</p>
             </div>
+            <form id="form-login" action="login.php" method="post">
+
+                <div>
+                    <label for="usuario">
+                        <span class="material-symbols-outlined" id="user">
+                            person
+                        </span>
+                    </label>
+                    <input type="email" name="usuario" id="usuario" placeholder="Digite o seu email" required
+                        minlength="10">
+                </div>
+
+
+                <div id="password">
+                    <label for="pass">
+                        <img src="imagens/key.png" alt="" id="key">
+                    </label>
+                    <input type="password" name="pass" id="pass" placeholder="Digite sua senha" required minlength="8">
+                </div>
+
+
+                <input type="submit" value="Login" onclick="validar()" id="btn-enviar">
+
+                <input type="button" value="Esqueci a Senha" class="button">
+
+
+
+
+            </form>
+
         </section>
     </main>
 </body>
+
 </html>
