@@ -18,23 +18,21 @@
     padding: 0px;
 }
 
-html {
-    padding: 9vh;
-}
-
 body {
-    height: 82vh;
+    height: 100vh;
     background-image: linear-gradient(to top, var(--verde), var(--roxo));
-    width: 218px;
+    position: relative;
 }
 
 main {
+    position: absolute;
     background: white;
     display: block;
-    margin: auto;
-    height: 100%;
     width: 218px;
     border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main > section#login > div#msg{
@@ -122,6 +120,7 @@ main > section#login > #form-login > .button{
     padding: 10px;
     margin: 0px auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     font: bold 18px Arial, sans-serif;
     color: rgba(108, 107, 107, 0.895); 
     width: 195px;
