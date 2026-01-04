@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_queryes.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person">
 
@@ -17,11 +18,18 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/prédio-landscape.jpg" alt="">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="imagens/prédio-185.jpg" type="image/jpg">
+                    <source media="(min-width: 321px)" srcset="imagens/prédio-landscape-255px.jpg" type="image/jpg">
+                    <img src="imagens/prédio-landscape-218px.jpg" alt="">
+                    
+                    
+
+                </picture>
             </div>
             <div id="msg">
                 <p id="p1"><strong>Olá</strong> <br> Seja bem-vindo(a) novamente!</p>
-                <p id="p2">Faça login para configurar o seu ambiente.</p>
+                
             </div>
             <form id="form-login" action="login.php" method="post">
 
