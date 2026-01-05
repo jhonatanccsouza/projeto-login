@@ -52,7 +52,6 @@ main > section#login > div#msg > #p1{
 }
 
 div#imagem{
-    display: block;
     width: 218px;
     height: 116px;
     background-color: #5f2c82;
