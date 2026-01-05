@@ -2,36 +2,139 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-    body{
-        width: 100%;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+
     }
 
-    main{
-        
-        height: 278px;
-        width: 100%;
+    main>section#login>div#imagem {
+        float: left;
+        width: 42%;
+        height: 290px;
+
     }
 
-    main > section#login > div#imagem{
-        width: 185px;
+    section#login>form {
+        float: right;
+        margin: 0px 5%;
     }
 
-    main > section#login{
-        display: inline;
-        
+    main>section#login>#form-login>div {
+        margin: 10px 0px;
+        width: 258px;
     }
 
+    main>section#login>#form-login>div>input {
+        width: 200px;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        width: 250px;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        margin: 10px 5px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
-    
+    section#login {
+        width: 80vw;
 
+    }
+
+    main>section#login>div#imagem {
+        float: left;
+        width: 42%;
+        height: 290px;
+
+    }
+
+    section#login>form {
+        float: right;
+        margin: 0px 10%;
+    }
+
+    main>section#login>#form-login>div {
+        margin: 10px 0px;
+        width: 288px;
+    }
+
+    main>section#login>#form-login>div>input {
+        width: 226px;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        width: 275px;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        margin: 10px 5px;
+    }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    section#login {
+        width: 80vw;
 
+    }
+
+    main>section#login>div#imagem {
+        float: left;
+        width: 42%;
+        height: 295px;
+
+    }
+
+    section#login>form {
+        float: right;
+        margin: 0px 10%;
+    }
+
+    main>section#login>form>div#msg {
+        font: bold 15px Arial, sans-serif;
+        text-align: center;
+        background: transparent;
+        margin: 0px;
+
+    }
+
+    main>section#login>form>div#msg>#p1>strong {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    main>section#login>form>div#msg>#p1 {
+        font-size: 20px;
+    }
+
+    main>section#login>#form-login>div {
+        margin: 10px 0px;
+        width: 398px;
+    }
+
+    main>section#login>#form-login>div>input {
+        width: 338px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        width: 386px;
+    }
+
+    main>section#login>#form-login>.button,
+    main>section#login>#form-login>#btn-enviar {
+        margin: 10px 5px;
+    }
 }

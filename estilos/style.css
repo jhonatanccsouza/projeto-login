@@ -27,32 +27,31 @@ main {
     position: absolute;
     background: white;
     display: block;
-    width: 218px;
     border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main > section#login > div#msg{
-    font: bold 18px Arial, sans-serif;
+main > section#login > form > div#msg{
+    font: bold 15px Arial, sans-serif;
     margin: 5px;
     margin-top: 8px;
     text-align: center;
+    background: transparent;
 
 }
 
-main > section#login > div#msg > #p1 > strong{
+main > section#login > form > div#msg > #p1 > strong{
     text-align: center;
     font-size: 30px;
 }
 
-main > section#login > div#msg > #p1{
-    font-size: 16px;
+main > section#login > form > div#msg > #p1{
+    font-size: 14px;
 }
 
 main > section#login > div#imagem{
-    width: 218px;
     height: 116px;
     background-color: #5f2c82;
     background-image: url(../imagens/prédio.jpg);
