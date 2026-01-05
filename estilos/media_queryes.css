@@ -29,12 +29,12 @@
         width: 200px;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a >  .button,
     main>section#login>#form-login>#btn-enviar {
         width: 250px;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a >  .button,
     main>section#login>#form-login>#btn-enviar {
         margin: 10px 5px;
     }
@@ -69,12 +69,12 @@
         width: 226px;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a > .button,
     main>section#login>#form-login>#btn-enviar {
         width: 275px;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a > .button,
     main>section#login>#form-login>#btn-enviar {
         margin: 10px 5px;
     }
@@ -128,12 +128,12 @@
         font-weight: bold;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a > .button,
     main>section#login>#form-login>#btn-enviar {
         width: 386px;
     }
 
-    main>section#login>#form-login>.button,
+    main>section#login>#form-login> a > .button,
     main>section#login>#form-login>#btn-enviar {
         margin: 10px 5px;
     }

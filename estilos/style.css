@@ -116,7 +116,7 @@ main > section#login > #form-login > #btn-enviar{
 
 } 
 
-main > section#login > #form-login > .button{
+main > section#login > #form-login > a > .button{
     background-color: #c5dfdd;
     display: block;
     border: 0px;
@@ -137,9 +137,13 @@ main > section#login > #form-login > #btn-enviar:hover {
 
 }
 
-main > section#login > #form-login > .button:hover {
+main > section#login > #form-login > a > .button:hover {
     background-color: var(--verdeGradiente);
 
+}
+
+main > section#login > #form-login > a{
+    text-decoration: none;
 }
 
 
