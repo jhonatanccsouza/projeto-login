@@ -5,7 +5,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
-
+        
     }
 
     main>section#login>div#imagem {
@@ -41,7 +41,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px){
 
     section#login {
         width: 80vw;
@@ -97,7 +97,7 @@
 
     section#login>form {
         float: right;
-        margin: 0px 10%;
+        margin: 0px 5%;
     }
 
     main>section#login>form>div#msg {
