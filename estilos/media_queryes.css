@@ -49,14 +49,14 @@
     }
 
     main>section#login>div#imagem {
-        float: left;
+        float: right;
         width: 42%;
         height: 290px;
 
     }
 
     section#login>form {
-        float: right;
+        float: left;
         margin: 0px 10%;
     }
 
@@ -89,14 +89,14 @@
     }
 
     main>section#login>div#imagem {
-        float: left;
+        float: right;
         width: 42%;
         height: 295px;
 
     }
 
     section#login>form {
-        float: right;
+        float: left;
         margin: 0px 5%;
     }
 
