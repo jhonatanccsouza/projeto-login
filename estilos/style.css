@@ -2,7 +2,6 @@
 
 /* Versão Mobile */
 
-/* Extra small devices (Iphone 5) */
     @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap');
 
 
@@ -52,10 +51,17 @@ main > section#login > div#msg > #p1{
     font-size: 16px;
 }
 
-
-div#imagem > img{
+div#imagem{
+    display: block;
     width: 218px;
-
+    height: 116px;
+    background-color: #5f2c82;
+    background-image: url(../imagens/prédio.jpg);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
 }
 
 main > section#login > #form-login > div{

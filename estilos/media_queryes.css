@@ -1,56 +1,8 @@
 @charset "UTF-8";
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-
-@media only screen and (min-width: 500px) {
-    body{
-        height: 100vh;
-        width: max-content;
-        margin: auto;
-
-    }
-
-    div#msg{
-        margin: 16px;
-    }
-
-    div#imagem > img{
-        width: 255px;
-    }
-    main{
-        width: 255px;
-        
-    }
-
-    main > section#login > #form-login > div {
-        width: 232px;
-        margin-top: 55px;
-
-        
-    }
-
-    main > section#login > #form-login > div#password{
-        margin-top: 25px;
-    }
-
-    main > section#login > #form-login > div > input{
-        width: 172px;
-    }
-
-    main > section#login > #form-login > #btn-enviar{
-        margin-top: 16%;
-    }
-
-    main > section#login > #form-login > .button, main > section#login > #form-login > #btn-enviar{
-        width: 238px;
-    }
-    
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body{
         width: 100%;
     }
