@@ -62,6 +62,8 @@ main > section#login > div#imagem{
     
 }
 
+/*Poderiamos usar o calc para alinhar os campo nas div's dos inputs*/
+
 main > section#login > #form-login > div{
     background-color: #5f2c82;
     display: block;
